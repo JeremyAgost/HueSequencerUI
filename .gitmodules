@@ -4,3 +4,6 @@
 [submodule "Three20"]
 	path = Three20
 	url = https://JeremyAgost@github.com/JeremyAgost/three20.git
+[submodule "PhilipsHueSDKiOS"]
+	path = PhilipsHueSDKiOS
+	url = git://github.com/PhilipsHue/PhilipsHueSDKiOS.git
