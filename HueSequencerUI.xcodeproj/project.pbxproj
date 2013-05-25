@@ -32,6 +32,12 @@
 		3F17C8E81751673500900650 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3F17C8EA1751673500900650 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3F17C8EC1751673500900650 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F17C8F41751681300900650 /* MGSplitCornersView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MGSplitCornersView.h; path = MGSplitViewController/Classes/MGSplitCornersView.h; sourceTree = "<group>"; };
+		3F17C8F51751681300900650 /* MGSplitCornersView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MGSplitCornersView.m; path = MGSplitViewController/Classes/MGSplitCornersView.m; sourceTree = "<group>"; };
+		3F17C8F61751681300900650 /* MGSplitDividerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MGSplitDividerView.h; path = MGSplitViewController/Classes/MGSplitDividerView.h; sourceTree = "<group>"; };
+		3F17C8F71751681300900650 /* MGSplitDividerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MGSplitDividerView.m; path = MGSplitViewController/Classes/MGSplitDividerView.m; sourceTree = "<group>"; };
+		3F17C8F81751681300900650 /* MGSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MGSplitViewController.h; path = MGSplitViewController/Classes/MGSplitViewController.h; sourceTree = "<group>"; };
+		3F17C8F91751681300900650 /* MGSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MGSplitViewController.m; path = MGSplitViewController/Classes/MGSplitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		3F17C8CA1751673400900650 = {
 			isa = PBXGroup;
 			children = (
+				3F17C8F3175167F100900650 /* SplitViewController */,
 				3F17C8DC1751673500900650 /* HueSequencerUI */,
 				3F17C8D51751673500900650 /* Frameworks */,
 				3F17C8D41751673500900650 /* Products */,
@@ -97,6 +104,19 @@
 				3F17C8EC1751673500900650 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F17C8F3175167F100900650 /* SplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F17C8F41751681300900650 /* MGSplitCornersView.h */,
+				3F17C8F51751681300900650 /* MGSplitCornersView.m */,
+				3F17C8F61751681300900650 /* MGSplitDividerView.h */,
+				3F17C8F71751681300900650 /* MGSplitDividerView.m */,
+				3F17C8F81751681300900650 /* MGSplitViewController.h */,
+				3F17C8F91751681300900650 /* MGSplitViewController.m */,
+			);
+			name = SplitViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +266,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HueSequencerUI/HueSequencerUI-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MGSplitViewController/Classes\"";
 				INFOPLIST_FILE = "HueSequencerUI/HueSequencerUI-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -257,6 +278,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HueSequencerUI/HueSequencerUI-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MGSplitViewController/Classes\"";
 				INFOPLIST_FILE = "HueSequencerUI/HueSequencerUI-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -282,6 +304,7 @@
 				3F17C8F21751673500900650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
