@@ -1,0 +1,6 @@
+[submodule "MGSplitViewController"]
+	path = MGSplitViewController
+	url = https://JeremyAgost@github.com/JeremyAgost/MGSplitViewController.git
+[submodule "Three20"]
+	path = Three20
+	url = https://JeremyAgost@github.com/JeremyAgost/three20.git
