@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SequenceEditViewController.h
 //  HueSequencerUI
 //
 //  Created by Jeremy Agostino on 5/25/13.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface SequenceEditViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIWindow * window;
+@property (nonatomic, strong) UIViewController * detailViewController;
 
 @end

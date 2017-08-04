@@ -16,6 +16,13 @@
 		3F17C8E91751673500900650 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F17C8E81751673500900650 /* Default.png */; };
 		3F17C8EB1751673500900650 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F17C8EA1751673500900650 /* Default@2x.png */; };
 		3F17C8ED1751673500900650 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F17C8EC1751673500900650 /* Default-568h@2x.png */; };
+		3F8B4BE617517C6900B40D7C /* SequenceEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B4BE517517C6900B40D7C /* SequenceEditViewController.m */; };
+		3F8B4CA11751969B00B40D7C /* EmptyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B4CA01751969B00B40D7C /* EmptyDetailViewController.m */; };
+		3F8B4D1617519EDD00B40D7C /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17C8F51751681300900650 /* MGSplitCornersView.m */; };
+		3F8B4D1717519EDD00B40D7C /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17C8F71751681300900650 /* MGSplitDividerView.m */; };
+		3F8B4D1817519EDD00B40D7C /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17C8F91751681300900650 /* MGSplitViewController.m */; };
+		3F8B4D1A17519F2B00B40D7C /* SplitViewLayout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B4D1917519F2B00B40D7C /* SplitViewLayout.xib */; };
+		3FAA0E1A1751A2AA0015155A /* SequenceEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA0E191751A2AA0015155A /* SequenceEditorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +45,13 @@
 		3F17C8F71751681300900650 /* MGSplitDividerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MGSplitDividerView.m; path = MGSplitViewController/Classes/MGSplitDividerView.m; sourceTree = "<group>"; };
 		3F17C8F81751681300900650 /* MGSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MGSplitViewController.h; path = MGSplitViewController/Classes/MGSplitViewController.h; sourceTree = "<group>"; };
 		3F17C8F91751681300900650 /* MGSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MGSplitViewController.m; path = MGSplitViewController/Classes/MGSplitViewController.m; sourceTree = "<group>"; };
+		3F8B4BE417517C6900B40D7C /* SequenceEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SequenceEditViewController.h; path = ViewControllers/SequenceEditViewController.h; sourceTree = "<group>"; };
+		3F8B4BE517517C6900B40D7C /* SequenceEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SequenceEditViewController.m; path = ViewControllers/SequenceEditViewController.m; sourceTree = "<group>"; };
+		3F8B4C9F1751969B00B40D7C /* EmptyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmptyDetailViewController.h; path = ViewControllers/EmptyDetailViewController.h; sourceTree = "<group>"; };
+		3F8B4CA01751969B00B40D7C /* EmptyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmptyDetailViewController.m; path = ViewControllers/EmptyDetailViewController.m; sourceTree = "<group>"; };
+		3F8B4D1917519F2B00B40D7C /* SplitViewLayout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplitViewLayout.xib; path = Nibs/SplitViewLayout.xib; sourceTree = "<group>"; };
+		3FAA0E181751A2AA0015155A /* SequenceEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SequenceEditorViewController.h; path = ViewControllers/SequenceEditorViewController.h; sourceTree = "<group>"; };
+		3FAA0E191751A2AA0015155A /* SequenceEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SequenceEditorViewController.m; path = ViewControllers/SequenceEditorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,8 @@
 		3F17C8DC1751673500900650 /* HueSequencerUI */ = {
 			isa = PBXGroup;
 			children = (
+				3F17C8FA175168FE00900650 /* ViewControllers */,
+				3F8B4C6B17518A2400B40D7C /* Nibs */,
 				3F17C8E51751673500900650 /* AppDelegate.h */,
 				3F17C8E61751673500900650 /* AppDelegate.m */,
 				3F17C8DD1751673500900650 /* Supporting Files */,
@@ -117,6 +133,27 @@
 				3F17C8F91751681300900650 /* MGSplitViewController.m */,
 			);
 			name = SplitViewController;
+			sourceTree = "<group>";
+		};
+		3F17C8FA175168FE00900650 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B4BE417517C6900B40D7C /* SequenceEditViewController.h */,
+				3F8B4BE517517C6900B40D7C /* SequenceEditViewController.m */,
+				3F8B4C9F1751969B00B40D7C /* EmptyDetailViewController.h */,
+				3F8B4CA01751969B00B40D7C /* EmptyDetailViewController.m */,
+				3FAA0E181751A2AA0015155A /* SequenceEditorViewController.h */,
+				3FAA0E191751A2AA0015155A /* SequenceEditorViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F8B4C6B17518A2400B40D7C /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B4D1917519F2B00B40D7C /* SplitViewLayout.xib */,
+			);
+			name = Nibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +211,7 @@
 				3F17C8E91751673500900650 /* Default.png in Resources */,
 				3F17C8EB1751673500900650 /* Default@2x.png in Resources */,
 				3F17C8ED1751673500900650 /* Default-568h@2x.png in Resources */,
+				3F8B4D1A17519F2B00B40D7C /* SplitViewLayout.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,8 +222,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8B4D1617519EDD00B40D7C /* MGSplitCornersView.m in Sources */,
+				3F8B4D1717519EDD00B40D7C /* MGSplitDividerView.m in Sources */,
+				3F8B4D1817519EDD00B40D7C /* MGSplitViewController.m in Sources */,
 				3F17C8E31751673500900650 /* main.m in Sources */,
 				3F17C8E71751673500900650 /* AppDelegate.m in Sources */,
+				3F8B4BE617517C6900B40D7C /* SequenceEditViewController.m in Sources */,
+				3F8B4CA11751969B00B40D7C /* EmptyDetailViewController.m in Sources */,
+				3FAA0E1A1751A2AA0015155A /* SequenceEditorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

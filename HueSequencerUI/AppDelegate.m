@@ -7,13 +7,23 @@
 //
 
 #import "AppDelegate.h"
+#import "MGSplitViewController.h"
+
+#import "SequenceEditViewController.h"
+#import "EmptyDetailViewController.h"
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) IBOutlet MGSplitViewController * splitViewController;
+@property (nonatomic, strong) IBOutlet UIViewController * rootViewController;
+@property (nonatomic, strong) IBOutlet UIViewController<MGSplitViewControllerDelegate> * detailViewController;
+
+@end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
